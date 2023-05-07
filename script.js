@@ -18,9 +18,9 @@ function vermenos (){
 
 function ColorRed(){
   var himg = document.getElementById("himg")
- himg.src = "https://i.imgur.com/pV5mPvi.png";
+ himg.src = "img/red/01.png";
    var ib1 = document.getElementById("ib1")
- ib1.src = "https://i.imgur.com/wX9WmNT.jpg";
+ ib1.src = "img/red/02.jpg";
    var buttons = document.getElementsByClassName("hb")
   for (var e of buttons) {
   e.style.backgroundColor = "red";
@@ -32,9 +32,9 @@ function ColorRed(){
 }
 function ColorBlue(){
     var himg = document.getElementById("himg")
- himg.src = "https://i.imgur.com/gn48rNX.png";
+ himg.src = "img/blue/01.png";
   var ib1 = document.getElementById("ib1")
- ib1.src = "https://i.imgur.com/husI1Ri.jpg";
+ ib1.src = "img/blue/02.jpg";
    var buttons = document.getElementsByClassName("hb")
   for (var e of buttons) {
   e.style.backgroundColor = "blue";
@@ -46,9 +46,9 @@ function ColorBlue(){
 }
 function ColorPurple(){
   var himg = document.getElementById("himg")
- himg.src = "https://i.imgur.com/hbUQLAz.png";
+ himg.src = "img/violet/01.png";
   var ib1 = document.getElementById("ib1")
- ib1.src = "https://i.imgur.com/i31FksM.jpg";
+ ib1.src = "img/violet/02.jpg";
    var buttons = document.getElementsByClassName("hb")
   for (var e of buttons) {
   e.style.backgroundColor = "purple";
